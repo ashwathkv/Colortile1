@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <link rel="stylesheet" href="Colortile.css">
+    <title>Sliding Tile Puzzle</title>
+</head>
+
+<body>
+    <h1>Sliding Tile Puzzle</h1>
+    <div id="container">
+        <ul>
+            <li id="cell11" class="tile-1" onclick="clickTile(1,1);gameOver()"></li>
+            <li id="cell12" class="tile-2" onclick="clickTile(1,2);gameOver()"></li>
+            <li id="cell13" class="tile-3" onclick="clickTile(1,3);gameOver()"></li>
+            <li id="cell14" class="tile-4" onclick="clickTile(1,4);gameOver()"></li>
+            <li id="cell15" class="tile-5" onclick="clickTile(1,5);gameOver()"></li>
+            <li id="cell21" class="tile-6" onclick="clickTile(2,1);gameOver()"></li>
+            <li id="cell22" class="tile-7" onclick="clickTile(2,2);gameOver()"></li>
+            <li id="cell23" class="tile-8" onclick="clickTile(2,3);gameOver()"></li>
+            <li id="cell24" class="tile-9" onclick="clickTile(2,4);gameOver()"></li>
+            <li id="cell25" class="tile-10" onclick="clickTile(2,5);gameOver()"></li>
+            <li id="cell31" class="tile-11" onclick="clickTile(3,1);gameOver()"></li>
+            <li id="cell32" class="tile-12" onclick="clickTile(3,2);gameOver()"></li>
+            <li id="cell33" class="tile-13" onclick="clickTile(3,3);gameOver()"></li>
+            <li id="cell34" class="tile-14" onclick="clickTile(3,4);gameOver()"></li>
+            <li id="cell35" class="tile-15" onclick="clickTile(3,5);gameOver()"></li>
+            <li id="cell41" class="tile-16" onclick="clickTile(4,1);gameOver()"></li>
+            <li id="cell42" class="tile-17" onclick="clickTile(4,2);gameOver()"></li>
+            <li id="cell43" class="tile-18" onclick="clickTile(4,3);gameOver()"></li>
+            <li id="cell44" class="tile-19" onclick="clickTile(4,4);gameOver()"></li>
+            <li id="cell45" class="tile-20" onclick="clickTile(4,5);gameOver()"></li>
+            <li id="cell51" class="tile-21" onclick="clickTile(5,1);gameOver()"></li>
+            <li id="cell52" class="tile-22" onclick="clickTile(5,2);gameOver()"></li>
+            <li id="cell53" class="tile-23" onclick="clickTile(5,3);gameOver()"></li>
+            <li id="cell54" class="tile-24" onclick="clickTile(5,4);gameOver()"></li>
+            <li id = "cell55" class="empty" onclick="clickTile(5,5);gameOver()"></li>
+        </ul>
+    </div>
+    <p>Solve This : </p>
+    <div id="container-2">
+        <ul>
+            <li id="cella11" class="common-tile tilea-1"></li>
+            <li id="cella12" class="common-tile tilea-2"></li>
+            <li id="cella13" class="common-tile tilea-3"></li>
+            <li id="cella21" class="common-tile tilea-4"></li>
+            <li id="cella22" class="common-tile tilea-5"></li>
+            <li id="cella23" class="common-tile tilea-6"></li>
+            <li id="cella31" class="common-tile tilea-7"></li>
+            <li id="cella32" class="common-tile tilea-8"></li>
+            <li id="cella33" class="common-tile tilea-9"></li>
+            
+        </ul>
+    </div>
+    <p>MOVES : </p>
+    <p id="moves"></p>
+<script src="Colortile.js"></script>
+<button class="button" onclick="shuffleq();shufflea();movesReinit()">RESET</button>
+</body>
+
+</html>

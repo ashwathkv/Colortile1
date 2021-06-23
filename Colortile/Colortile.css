@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background-color: #114B5F;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+h1 {
+    color: #E4FDE1;
+    font-family: 'Sofia';
+    text-align: center;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-family: 'Audiowide';
+    color: #E4FDE1;
+}
+ul li{
+    background: #7ac0e9;
+    border: 1px solid #028090;
+}
+#container {
+    width: 450px;
+    height: 450px;
+    background: #E4FDE1;
+    margin: 10px auto;
+}
+li {
+    margin: 2%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.tile-1,.tile-10,.tile-12,.tile-18,.tile-24{
+    background: #218136;
+    border: 1px solid #028090;
+}
+.tile-2,.tile-7,.tile-13,.tile-19{
+    background: #8bd42b;
+    border: 1px solid #028090;
+}
+.tile-3,.tile-6,.tile-17,.tile-20{
+    background: #f85204;
+    border: 1px solid #028090;
+}
+.tile-5,.tile-8,.tile-11,.tile-17,.tile-23{
+    background: #3a0202;
+    border: 1px solid #028090;
+}
+.tile-9,.tile-15,.tile-16{
+    background: #456990;
+    border: 1px solid #028090;
+}
+.empty {
+    background: #f6f8f6;
+    border: 2px solid #114B5F;
+}
+#container-2 {
+    width: 260px;
+    height: 260px;
+    background: #E4FDE1;
+    margin: 10px auto;
+}
+p{
+    color: #E4FDE1;
+    font-family: 'Sofia';
+    text-align: center;
+    font-size: 25px;
+}
+.button {
+    background-color: #4CAF50;
+    border: #000000;
+    color: white;
+    padding: 15px 2px;
+    position: relative;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .tilea-1{
+    background: #218136;
+    border: 1px solid #028090;
+}
+.tilea-2,.tilea-7{
+    background: #8bd42b;
+    border: 1px solid #028090;
+}
+.tilea-3,.tilea-6{
+    background: #f85204;
+    border: 1px solid #028090;
+}
+.tilea-5,.tilea-8{
+    background: #3a0202;
+    border: 1px solid #028090;
+}
+.tilea-9{
+    background: #456990;
+    border: 1px solid #028090;
+}
